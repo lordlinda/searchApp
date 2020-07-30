@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "simple search app",
   "main": "server.js",
+  "engines":{
+  "node":"v8.10.0"
+  },
   "scripts": {
     "start": "node server",
     "server": "nodemon server",
