@@ -11,7 +11,7 @@ const mongoose =require('mongoose')
 //we access it using the dotenv module for deployment
 //but for just development we  can use  our local database
  dotenv.config()
- mongoose.connect('mongodb://localhost/searchApp' || process.env.MONGODB_URL,{
+ mongoose.connect('mongodb+srv://lord:phaneroo@5@cluster0.kcjio.mongodb.net/searchApp?retryWrites=true&w=majority' || process.env.MONGODB_URL,{
  useNewUrlParser: true,
   useUnifiedTopology: true
  }).then(
